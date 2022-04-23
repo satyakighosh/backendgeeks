@@ -9,7 +9,8 @@
     "simpleKoa": "ts-node-dev --respawn SimpleKoa.ts",
     "start": "ts-node-dev --respawn SimpleNode.ts",
     "KoaDbSql": "ts-node-dev --respawn KoaDbSql.ts",
-    "KoaTypeOrm": "ts-node-dev --respawn KoaTypeOrm.ts"
+    "KoaTypeOrm": "ts-node-dev --respawn KoaTypeOrm.ts",
+    "koaGraphql": "ts-node-dev --respawn koaGraphql.ts"
   },
   "author": "",
   "license": "ISC",
@@ -21,9 +22,11 @@
     "apollo-server-koa": "^2.25.1",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "graphql": "^15.3.0",
-    "graphql-tools": "^8.2.0",
+    "graphql": "^15.8.0",
+    "graphql-middleware": "^6.1.25",
+    "graphql-tools": "^8.2.8",
     "koa": "^2.13.1",
+    "koa-graphql": "^0.12.0",
     "koa-router": "^10.0.0",
     "pg": "^8.6.0",
     "ts-node-dev": "^1.1.6",
