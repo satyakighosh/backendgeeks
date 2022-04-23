@@ -30,7 +30,7 @@ async function main() {
     apolloServer.applyMiddleware({app});
     app.use(router.routes());
     app.use(cors());
-    app.listen(process.env.PORT || 3005, () => console.log)
+    app.listen(process.env.PORT || 3005, () => console.log("graphql is working"))
 }
 
 main();
