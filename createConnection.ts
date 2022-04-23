@@ -5,7 +5,7 @@ import hotels_csv from "./hotels_csv";
 dotenv.config();
 
 createConnection({
-    url: process.env.DATABASE,
+    url: process.env.DATABASE_URL,
     entities: [hotels_csv],
     type:"postgres",
     extra:{
