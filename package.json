@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "simpleNode": "ts-node-dev --respawn SimpleNode.ts",
     "simpleKoa": "ts-node-dev --respawn SimpleKoa.ts",
-    "start": "ts-node-dev --respawn SimpleNode.ts",
+    "start": "ts-node-dev --respawn koaGraphql.ts",
     "KoaDbSql": "ts-node-dev --respawn KoaDbSql.ts",
     "KoaTypeOrm": "ts-node-dev --respawn KoaTypeOrm.ts",
     "koaGraphql": "ts-node-dev --respawn koaGraphql.ts"
